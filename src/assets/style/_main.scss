@@ -1,0 +1,28 @@
+@import "_info.scss";
+@import "_image.scss";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.likeBody {
+  background: rgba(213, 225, 239, 1);
+  height: 100vh;
+  font-family: outfit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    width: 250px;
+    background-color: #ffffff;
+    width: 320px;
+    height: 497px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.178);
+  }
+}

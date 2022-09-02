@@ -1,0 +1,19 @@
+.container__info {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 5px 10px;
+
+  h1 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  p {
+    color: rgba(125, 136, 158, 1);
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
